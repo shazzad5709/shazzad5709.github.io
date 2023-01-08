@@ -1,0 +1,84 @@
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/heroImage.jpg');
+    background-size: cover;
+    position: relative;
+}
+/* text css above hero image */
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    color: white;
+    font-family: 'Amaranth';
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+#top {
+    font-family: 'Lucida Calligraphy';
+}
+
+/* awards section css */
+.awardsText.card {
+    height: 200px;
+  }
+.awardsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+#about, #awards, #education, #hobbies {
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+#hobbies {
+    padding-bottom: 6rem;
+}
+
+
+#footer {
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+.copy {
+    padding-top: 1rem;
+    color: whitesmoke;
+}
+
+.hobby {
+    font-size: 1.5rem;
+    margin-left: 8rem;
+}
+
+.table {
+    font-size: 1.3rem;
+}
